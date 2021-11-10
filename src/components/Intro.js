@@ -1,9 +1,11 @@
 import React from 'react';
+import '../styles/Intro.css';
 
 export default () => (
-    <div>
-        <h1>Hello<h1>
-        </h1>I'm Samuel.</h1>
-        <p> additional descriptive text</p>
+    <div className='intro'>
+        <div className='intro-text'>
+            <h1>Hello, I'm Samuel!</h1>
+            <h1>I'm an aspiring software developer.</h1>
+        </div>
     </div>
 )

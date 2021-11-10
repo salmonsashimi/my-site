@@ -1,0 +1,11 @@
+.intro {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.intro-text {
+    margin-left: 15rem;
+    font-size: 1.25rem;
+
+}

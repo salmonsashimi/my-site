@@ -1,0 +1,15 @@
+.about {
+    height: 100vh;
+    background-color: #E6DDC4;
+    color: #181D31;
+    display: flex;
+}
+
+.about-container {
+    max-width: 50vw;
+    flex-grow: 1;
+}
+.months {
+    color: red;
+    text-decoration: underline;
+}
