@@ -3,3 +3,7 @@ body {
     color: #f8efd1;
     font-family: 'Source Code Pro', monospace;
 }
+
+.container {
+    padding: 0 15rem;
+}
