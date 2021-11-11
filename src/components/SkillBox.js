@@ -1,21 +1,21 @@
 import React from 'react';
 import Skill from './Skill';
 
-export default () => (
+const skillBox = (props) => (
     <div>
-        <Skill skill='HTML' />
-        <Skill skill='CSS' />
-        <Skill skill='JavaScript' />
-        <Skill skill='Python' />
-        <Skill skill='Node' />
-        <Skill skill='Flask' />
-        <Skill skill='MongoDB' />
-        <Skill skill='Firebase' />
-        <Skill skill='SQLite' />
-        <h3> asdd in a legend to separate language, framework and tools</h3>
-        <Skill skill='SCSS' />
-        <Skill skill='Git/Github' />
-        <Skill skill='React' />
-        <Skill skill='Jest' />
+        {props.skills.map((skill) => (
+            <Skill key={skill} skill={skill} />
+        ))}
+        <h3> asdd in legend to separate language, framework and tools. demarkated by box with colors</h3>
+
     </div>
 )
+
+skillBox.defaultProps = {
+    skills: ['HTML', 'CSS', 'JavaScript', 'Python', 'Node', 'React', 'Flask', 'MongoDB', 'Firebase', 'SQLite', 'SCSS', 'Git/Github', 'Jest']
+}
+
+
+
+
+export default skillBox;
