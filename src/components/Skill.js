@@ -1,7 +1,7 @@
 import React from 'react';
+import '../styles/Skill.css'
 
 export default (props) => (
-    <div>
-        <h3>{props.skill}</h3>
-    </div>
+    <h3 className='skill'>{props.skill}</h3>
+
 )

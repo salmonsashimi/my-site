@@ -2,9 +2,17 @@
     height: 100vh;
     background-color: #E6DDC4;
     color: #181D31;
+    display: flex;
+    align-items: center;
+
 }
 
 .months {
     color: red;
     text-decoration: underline;
+}
+
+.half-container {
+    min-width: 50%;
+    padding: auto;
 }

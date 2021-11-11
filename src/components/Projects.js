@@ -1,11 +1,13 @@
 import React from 'react';
+import ProjectBox from './ProjectBox';
 import '../styles/Projects.css';
+
 
 export default () => (
     <div className='projects container'>
-        <div>Project 1</div>
-        <div>Project 1</div>
-        <div>Project 1</div>
-        <div>Project 1</div>
+        <ProjectBox />
+        <ProjectBox />
+        <ProjectBox />
+        <ProjectBox />
     </div>
 )
