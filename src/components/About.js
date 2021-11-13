@@ -7,8 +7,8 @@ export default () => {
     return (
         <div className='about container'>
             <div className='half-container'>
-                <h1>As of today, I have been learning to code for <span className='months'>{months}</span> months.</h1>
-                <h1>These are the skills I'm equipped with:</h1>
+                <h1>As of today, I have been self-learning to code for <span className='months'>{months}</span> months.</h1>
+                <h1>These are the skills I am equipped with:</h1>
                 <h1>Lengends:</h1>
             </div>
             <div className='half-container'>
