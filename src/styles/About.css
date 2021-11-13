@@ -2,16 +2,10 @@
     align-items: center;
     background-color: #E6DDC4;
     color: #181D31;
-    display: flex;
     min-height: 100vh;
 }
 
 .months {
     color: red;
     text-decoration: underline;
-}
-
-.half-container {
-    min-width: 50%;
-    padding: auto;
 }

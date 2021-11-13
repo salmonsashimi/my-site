@@ -1,13 +1,12 @@
 .projectBox {
+    text-align:left;
     border: 0.2rem solid white;
-    text-align: center;
-    padding: 0.4rem 0.2rem;
+    padding: 0 1rem;
     min-width: 150px;
-    margin: 0.8rem 0;
     transition: 0.4s
 }
 
 .projectBox:hover {
-    background-color: white;
+    background-color: #E6DDC4;
     color: black
 }
