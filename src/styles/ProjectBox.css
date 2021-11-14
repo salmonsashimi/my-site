@@ -3,10 +3,36 @@
     border: 0.2rem solid white;
     padding: 0 1rem;
     min-width: 150px;
-    transition: 0.4s
+    transition: 0.4s;
+    margin-bottom: 1.5rem;
+    display:flex;
 }
 
 .projectBox:hover {
     background-color: #E6DDC4;
     color: black
+}
+
+.projectBox:hover .projectBox-icons .projectBox-icon{
+    transition: 0.4s;
+    color: black
+}
+
+.projectBox-text {
+    padding-right: 15px;
+}
+
+.projectBox-icons {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.projectBox-icon {
+    color: #f8efd1;
+}
+
+.projectBox-icon:visited {
+    color: #f8efd1;
 }

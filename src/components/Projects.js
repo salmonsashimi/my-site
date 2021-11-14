@@ -8,18 +8,26 @@ const Projects = (props) => (
         <h1>Here are some projects I have done.</h1>
         <div>
             {props.projects.map((project) => {
-                return <ProjectBox name={project.name} desc={project.desc} repo={project.repo} />
+                return <ProjectBox
+                    name={project.name}
+                    desc={project.desc}
+                    repo={project.repo}
+                    link={project.link}
+                />
             })}
         </div>
     </div>
 )
+
+// add in more text like this is personal project/ online bootcamp etc.
+// add in tech used
 
 Projects.defaultProps = {
     projects: [
         {
             name: 'expensetracker',
             desc: 'A web app for users to keep track of their expenditures.',
-            link: 'expensetracker-1.herokuapp.com/',
+            link: 'https://expensetracker-1.herokuapp.com/',
             repo: 'https://github.com/salmonsashimi/expensetracker'
         },
         {

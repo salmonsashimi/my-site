@@ -1,5 +1,9 @@
 .contact {
     min-height: 80vh;
     background-color: #678983;
+    color: #181D31;
+}
 
+.contact-icons {
+    color: #181D31;
 }

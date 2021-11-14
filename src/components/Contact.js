@@ -7,5 +7,9 @@ export default () => (
         Interested to know more? lets connect!
         You can find me at :
         lets connect!
+
+        <a href='https://www.google.com' ><i class="fab fa-github-square fa-2x contact-icons" /></a>
+        <a href='https://www.google.com' ><i class="fab fa-linkedin fa-2x contact-icons" /></a>
+        <a href='https://www.google.com' ><i class="fas fa-envelope-square fa-2x contact-icons" /></a>
     </div>
 )

@@ -6,7 +6,7 @@ export default () => {
     let months = 2000;
     return (
         <div className='about container'>
-            <h1>About Me</h1>
+            <h1 className='about-title'>About Me</h1>
             <p>I first stumbled onto programming when I decided to learn data analytics for self-development. Python was my language of choice then, and I went through an online course to learn it.</p>
             <p>But we all know that Python is far more capable than just data analytics. I went from creating CLI functions and GUIs, to building live websites. The enjoyable process made me realise I want to pursue a career in this field.</p>
 

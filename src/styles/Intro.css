@@ -9,11 +9,11 @@
     color: #f8efd1;
 }
 
-a {
+.intro-icons {
     margin-right: 15px;
     color: #f8efd1;
 }
 
-a:visited { 
+.intro-icons:visited { 
     color:#f8efd1; 
 }
