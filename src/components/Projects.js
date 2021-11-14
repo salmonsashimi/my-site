@@ -5,7 +5,7 @@ import '../styles/Projects.css';
 
 const Projects = (props) => (
     <div className='projects container'>
-        <h1>Here are some projects I have done.</h1>
+        <h1 className='projects-title'>Here are some projects I have done.</h1>
         <div>
             {props.projects.map((project) => {
                 return <ProjectBox
