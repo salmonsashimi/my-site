@@ -8,3 +8,12 @@
     font-size: 1.25rem;
     color: #f8efd1;
 }
+
+a {
+    margin-right: 15px;
+    color: #f8efd1;
+}
+
+a:visited { 
+    color:#f8efd1; 
+}
