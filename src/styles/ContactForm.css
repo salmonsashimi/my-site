@@ -3,3 +3,15 @@ form, label, input,textarea {
     width: 100%;
 }
 
+
+
+.form-button {
+    border: none;
+    background-color: #181D31;
+    color: #f8efd1;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.2rem;
+    padding: 7px;
+    margin: auto;
+}
+
