@@ -6,7 +6,13 @@
 
 .contact-icons {
     color: #181D31;
+    transition: 0.4s;
 }
+
+.contact-icons:hover {
+    color: #E6DDC4;
+}
+
 
 .contact-title {
     padding-top: 2rem;
