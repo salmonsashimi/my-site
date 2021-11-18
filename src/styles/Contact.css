@@ -4,13 +4,27 @@
     color: #181D31;
 }
 
+.contact-form {
+    max-width: 80%;
+    margin: auto;
+}
+
+
 .contact-icons {
+    max-width: 15%;
+    margin: auto;
+    display:flex;
+justify-content: space-between;
+}
+
+.contact-icon {
     color: #181D31;
     transition: 0.4s;
 }
 
-.contact-icons:hover {
+.contact-icon:hover {
     color: #E6DDC4;
+    cursor: pointer;
 }
 
 

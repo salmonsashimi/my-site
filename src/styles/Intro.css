@@ -6,14 +6,18 @@
 
 .intro-text {
     font-size: 1.25rem;
-    color: #f8efd1;
+    color: #E6DDC4;
 }
 
 .intro-icons {
     margin-right: 15px;
-    color: #f8efd1;
+    color: #E6DDC4;
 }
 
 .intro-icons:visited { 
+    color:#E6DDC4; 
+}
+
+.intro-icons:hover { 
     color:#f8efd1; 
 }

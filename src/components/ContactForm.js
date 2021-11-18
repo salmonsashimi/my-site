@@ -8,7 +8,7 @@ function ContactForm() {
         return <p>Thank you for your message. I will get back the soonest possible!</p>;
     }
     return (
-        <div>
+        <div className='contactForm'>
             <form onSubmit={handleSubmit}>
                 <label htmlFor="email">Your Email</label>
                 <input
