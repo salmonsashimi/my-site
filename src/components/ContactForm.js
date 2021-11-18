@@ -25,15 +25,18 @@ function ContactForm() {
                 <textarea
                     id="message"
                     name="message"
+                    rows='8'
                 />
                 <ValidationError
                     prefix="Message"
                     field="message"
                     errors={state.errors}
                 />
-                <button className='form-button' type="submit" disabled={state.submitting}>
-                    Submit
-      </button>
+                <div className='contactForm-button-format'>
+                    <button className='contactForm-button' type="submit" disabled={state.submitting}>
+                        Submit
+                </button>
+                </div>
             </form>
         </div>
     );
