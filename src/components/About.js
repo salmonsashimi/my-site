@@ -11,7 +11,7 @@ export default () => {
             <p>But we all know that Python is far more capable than just data analytics. I went from creating CLI functions and GUIs, to building live websites. The enjoyable process made me realise I want to pursue a career in this field.</p>
 
             <p>From then on, I went through a variety of learning resources available online (thanks internet!), from platforms such as Udemy, Harvard/edX and Stack Overflow. I am a firm believer that anyone can learn something as long as they put their mind to it. </p>
-            <p>As of today, I have been self-learning to code for <span className='months'>{months}</span> months. Currently, I am working on a online ecommerce application.</p>
+            <p>As of today, I have been self-learning to code for <span className='months'>{months}</span> months. Currently, I am working on a online ecommerce application to hone my skills in React.</p>
             <h1>These are the technologies I frequent:</h1>
             <SkillBox />
             <h1>Lengends:</h1>

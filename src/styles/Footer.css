@@ -1,0 +1,22 @@
+.footer {
+    background-color: #678983;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.footer-icons {
+    max-width: 15%;
+    margin: auto;
+    display:flex;
+    justify-content: space-between;
+}
+
+.footer-icon {
+    color: #181D31;
+    transition: 0.4s;
+}
+
+.footer-icon:hover {
+    color: #E6DDC4;
+    cursor: pointer;
+}
