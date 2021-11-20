@@ -1,5 +1,5 @@
 .contact {
-    min-height: 80vh;
+    min-height: 100%;
     background-color: #678983;
     color: #181D31;
 }
@@ -12,18 +12,3 @@
 .contact-title {
     padding-top: 2rem;
 }
-/* 
-
-
-.intro-icons {
-    margin-right: 15px;
-    color: #f8efd1;
-}
-
-.intro-icons:visited { 
-    color:#E6DDC4; 
-}
-
-.intro-icons:hover { 
-    color:#f8efd1; 
-} */
