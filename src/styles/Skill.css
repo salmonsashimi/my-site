@@ -1,11 +1,11 @@
 .skill {
     border: 0.2rem solid #181D31;
-    text-align: center;
     border-radius: 5px;
     padding: 0.4rem 0.2rem;
     min-width: 150px;
     margin: 0.8rem 0;
-    transition: 0.4s
+    text-align: center;
+    transition: 0.4s;
 }
 
 .skill:hover {

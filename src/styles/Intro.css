@@ -1,17 +1,17 @@
 .intro {
-    min-height: 100vh;
-    display: flex;
     align-items: center;
+    display: flex;
+    min-height: 100vh;
 }
 
 .intro-text {
-    font-size: 1.25rem;
     color: #E6DDC4;
+    font-size: 1.25rem;
 }
 
 .intro-icons {
-    margin-right: 15px;
     color: #E6DDC4;
+    margin-right: 15px;
 }
 
 .intro-icons:visited { 

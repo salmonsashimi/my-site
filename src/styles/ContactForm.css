@@ -1,8 +1,8 @@
 form, label, input,textarea {
-    display: block;
-    width: 100%;
     border-radius: 5px;
     border: none;
+    display: block;
+    width: 100%;
 }
 
 label {
@@ -10,10 +10,10 @@ label {
 }
 
 input, textarea {
-    margin-bottom: 15px;
-    padding: 10px;
     font-size: 14px;
     font-family: 'Source Code Pro', monospace;
+    margin-bottom: 15px;
+    padding: 10px;
 }
 
 textarea{
@@ -21,14 +21,14 @@ textarea{
 }
 
 .contactForm-button-format {
-    text-align: center;
     padding: 10px;
+    text-align: center;
 }
 
 .contactForm-button {
+    background-color: #181D31;
     border: none;
     border-radius: 5px;
-    background-color: #181D31;
     color: #E6DDC4;
     font-family: 'Source Code Pro', monospace;
     font-size: 1.2rem;

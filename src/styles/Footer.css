@@ -1,14 +1,14 @@
 .footer {
     background-color: #678983;
-    text-align: center;
     padding: 15px 0;
+    text-align: center;
 }
 
 .footer-icons {
-    max-width: 15%;
-    margin: auto;
     display:flex;
     justify-content: space-between;
+    max-width: 15%;
+    margin: auto;
 }
 
 .footer-icon {
