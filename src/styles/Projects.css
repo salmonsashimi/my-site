@@ -1,9 +1,9 @@
 .projects {
     color: #f8efd1;
-    min-height: 100vh;
+    min-height: 100%;
     text-align: left;
 }
 
 .projects-title {
-    margin-top: 2rem;
+    margin-top: 0px;
 }
