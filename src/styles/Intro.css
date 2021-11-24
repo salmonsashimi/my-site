@@ -1,13 +1,8 @@
 .intro {
     align-items: center;
-    display: flex;
     min-height: 100vh;
+    display: flex;
     padding: 0 15rem;
-}
-
-.intro-text {
-    color: #E6DDC4;
-    font-size: 1.25rem;
 }
 
 .intro-icons {
@@ -25,10 +20,12 @@
 
 .css-typing h1 {
     border-right: .15em solid orange;
+    color: #E6DDC4;
     font-size: 2.75rem;
     white-space: nowrap;
     overflow: hidden;
   }
+
   .css-typing h1:nth-child(1) {
     width: 9.5rem;
     -webkit-animation: type 0.5s steps(10, end);
@@ -40,8 +37,8 @@
   .css-typing h1:nth-child(2) {
     width: 30rem;
     opacity: 0;
-    -webkit-animation: type2 1.2s steps(22, end);
-    animation: type2 1.2s steps(22, end);
+    -webkit-animation: type2 1s steps(20, end);
+    animation: type2 1s steps(20, end);
     -webkit-animation-delay: 0.5s;
     animation-delay: 0.5s;
     -webkit-animation-fill-mode: forwards;
@@ -53,8 +50,8 @@
     opacity: 0;
     -webkit-animation: type3 1.5s steps(25, end), blink .5s step-end infinite alternate;
     animation: type3 1.5s steps(25, end), blink .5s step-end infinite alternate;
-    -webkit-animation-delay: 1.7s;
-    animation-delay: 1.7s;
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
