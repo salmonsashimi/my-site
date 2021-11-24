@@ -26,7 +26,7 @@ Projects.defaultProps = {
     projects: [
         {
             name: 'expensetracker',
-            desc: 'A web app for users to keep track of their expenditures, and is one of the projects of an online bootcamp on React. The website is build on a combination of React and Redux on the frontend, and Firebase for database and user authentication.',
+            desc: 'A web app for users to keep track of their expenditures, and is one of the projects of an online bootcamp on React. The website is build on a combination of React and Redux on the frontend, and Google Firebase for database and user authentication.',
             link: 'https://expensetracker-1.herokuapp.com/',
             repo: 'https://github.com/salmonsashimi/expensetracker'
         },
