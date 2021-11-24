@@ -26,18 +26,18 @@ Projects.defaultProps = {
     projects: [
         {
             name: 'expensetracker',
-            desc: 'A web app for users to keep track of their expenditures.',
+            desc: 'A web app for users to keep track of their expenditures, and is one of the projects of an online bootcamp on React. The website is build on a combination of React and Redux on the frontend, and Firebase for database and user authentication.',
             link: 'https://expensetracker-1.herokuapp.com/',
             repo: 'https://github.com/salmonsashimi/expensetracker'
         },
         {
             name: 'stocktracker',
-            desc: 'A web app for users to log and review their stock portfolio.',
+            desc: 'This was a personal project I created for users to record and review their stock portfolio. The web app uses MongoDB to store user info, and marketstack API to retrieve live stock data. ',
             repo: 'https://github.com/salmonsashimi/stocktracker'
         },
         {
             name: 'blogsite',
-            desc: 'A blog template for users to blog on their local server.',
+            desc: 'This is a personal blog template for users to log blog posts on their local server. The site is built on HTML, CSS, JavaScript, and MongoDB to store the posts.',
             repo: 'https://github.com/salmonsashimi/blogsite'
         }
 
