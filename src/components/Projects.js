@@ -6,7 +6,7 @@ import '../styles/Projects.css';
 const Projects = (props) => (
     <div className='projects container'>
         <h1 className='projects-title'>Here are some projects I have done.</h1>
-        <div>
+        <div className='projects-items'>
             {props.projects.map((project) => {
                 return <ProjectBox
                     name={project.name}
@@ -26,13 +26,13 @@ Projects.defaultProps = {
     projects: [
         {
             name: 'expensetracker',
-            desc: 'A web app for users to keep track of their expenditures, and is one of the projects of an online bootcamp on React. The website is build on a combination of React and Redux on the frontend, and Google Firebase for database and user authentication.',
+            desc: 'A web app for tracking expenditures. The project is part of a React online bootcamp. This web app is build on a combination of React and Redux on the frontend, and Google Firebase for database and user authentication.',
             link: 'https://expensetracker-1.herokuapp.com/',
             repo: 'https://github.com/salmonsashimi/expensetracker'
         },
         {
             name: 'stocktracker',
-            desc: 'This was a personal project I created for users to record and review their stock portfolio. The web app uses MongoDB to store user info, and marketstack API to fetch live stock data. ',
+            desc: 'This was a personal project for users to record and review their stock portfolio. The web app uses MongoDB to store user info, and marketstack API to fetch live stock data. ',
             repo: 'https://github.com/salmonsashimi/stocktracker'
         },
         {

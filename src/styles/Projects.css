@@ -7,3 +7,10 @@
 .projects-title {
     margin-top: 0px;
 }
+
+.projects-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
