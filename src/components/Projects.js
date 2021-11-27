@@ -18,8 +18,6 @@ const Projects = (props) => (
         </div>
     </div>
 )
-
-// add in more text like this is personal project/ online bootcamp etc.
 // add in tech used
 
 Projects.defaultProps = {
