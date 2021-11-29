@@ -30,7 +30,7 @@ Projects.defaultProps = {
         },
         {
             name: 'Stocktracker',
-            desc: 'This was a personal project for users to record and review their stock portfolio. The web app uses MongoDB to store user info, and marketstack API to fetch live stock data. ',
+            desc: 'This is a personal project for users to record and review their stock portfolio. The web app uses MongoDB to store user info, and marketstack API to fetch live stock data. ',
             repo: 'https://github.com/salmonsashimi/stocktracker'
         },
         {
