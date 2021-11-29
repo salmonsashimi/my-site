@@ -2,13 +2,28 @@
     border-radius: 5px;
     border: 0.2rem solid white;
     display: flex;
-    min-width: 43%;
     max-width: 43%;
     padding: 0 25px;
     transition: 0.4s;
     text-align:left;
     margin-bottom: 20px;
+    align-items:stretch;
 }
+
+/* @media (min-width: 600px) {
+    .projectBox {
+        border-radius: 5px;
+        border: 0.2rem solid white;
+        display: flex;
+        min-width: 43%;
+        max-width: 43%;
+        padding: 0 25px;
+        transition: 0.4s;
+        text-align:left;
+        margin-bottom: 20px;
+    }
+} */
+
 
 .projectBox:hover {
     background-color: #E6DDC4;
@@ -38,3 +53,5 @@
 .projectBox-icon:visited {
     color: #E6DDC4;
 }
+
+

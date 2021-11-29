@@ -4,5 +4,13 @@ body {
 }
 
 .container {
-    padding: 45px 15%;
+    padding: 45px 20px;
+    text-align: center;
+}
+
+@media (min-width: 600px) {
+    .container {
+        padding: 45px 15%;
+        text-align: left;
+    }
 }
