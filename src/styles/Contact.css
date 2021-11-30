@@ -4,11 +4,15 @@
     color: #181D31;
 }
 
-.contact-form {
-    max-width: 80%;
-    margin: auto;
-}
+
 
 .contact-title {
     margin-top: 0;
+}
+
+@media (min-width: 600px) {
+    .contact-form {
+        max-width: 80%;
+        margin: auto;
+    }
 }
