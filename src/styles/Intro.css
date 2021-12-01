@@ -17,10 +17,12 @@
     color:#f8efd1; 
 }
 
+
+
 .css-typing h1 {
     border-right: .15em solid orange;
     color: #E6DDC4;
-    font-size: 2.75rem;
+    font-size: 2.1rem;
     white-space: nowrap;
     overflow: hidden;
   }
@@ -143,5 +145,42 @@
   @-webkit-keyframes blink {
     50% {
       border-color: tranparent;
+    }
+  }
+
+
+  @media (min-width: 1200px) {
+    .css-typing h1 {
+      font-size: 2.75rem;
+    }
+  
+    .css-typing h1:nth-child(1) {
+      width: 9.5rem;
+      -webkit-animation: type 0.5s steps(10, end);
+      animation: type 0.5s steps(10, end);
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+    }
+    
+    .css-typing h1:nth-child(2) {
+      width: 30rem;
+      opacity: 0;
+      -webkit-animation: type2 1s steps(20, end);
+      animation: type2 1s steps(20, end);
+      -webkit-animation-delay: 0.5s;
+      animation-delay: 0.5s;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+    }
+    
+    .css-typing h1:nth-child(3) {
+      width: 51rem;
+      opacity: 0;
+      -webkit-animation: type3 1.5s steps(25, end), blink .5s step-end infinite alternate;
+      animation: type3 1.5s steps(25, end), blink .5s step-end infinite alternate;
+      -webkit-animation-delay: 1.5s;
+      animation-delay: 1.5s;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
     }
   }
