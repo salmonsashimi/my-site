@@ -8,6 +8,11 @@ body {
     text-align: center;
 }
 
+.container-content {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
 @media (min-width: 650px) {
     .container {
         padding: 0 15%;

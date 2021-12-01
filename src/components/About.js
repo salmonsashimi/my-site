@@ -9,7 +9,7 @@ export default () => {
     let start = moment([2020, 10, 1]);
     let difference = today.diff(start, 'months');
     return (
-        <div className='about container'>
+        <div className='about container container-content'>
             <h1 className='about-title'>About Me</h1>
             <p>I first stumbled onto programming through an online Python course, with the intention of equiping myself with data analysis skills.</p>
             <p>But we all know that Python is far more capable than just data analytics. I went from creating CLI functions and GUIs, to building live websites. The enjoyable process made me realise I want to pursue a career in software development.</p>
