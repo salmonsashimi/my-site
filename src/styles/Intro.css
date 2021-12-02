@@ -2,6 +2,7 @@
     align-items: center;
     min-height: 100vh;
     display: flex;
+    justify-content: center;
 }
 
 .intro-icons {
@@ -17,153 +18,220 @@
     color:#f8efd1; 
 }
 
+/* DEMO-SPECIFIC STYLES */
+@media (max-width:768px) {
 
-  @media (min-width: 768px) {
-    .css-typing h1 {
+
+  .css-typing h1 {
+    font-size: 1.8rem;
+    color: #E6DDC4;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+
+  }
+  
+  .web {
+    display: none;
+  }
+
+  .css-typing h1:nth-child(1) {
+    width: 8.5rem;
+    animation: type 0.5s steps(10, end);
+    animation-fill-mode: forwards;
+  }
+  
+  .css-typing h1:nth-child(2) {
+    width: 23rem;
+    opacity: 0;
+    animation: type2 1s steps(20, end);
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+  }
+  
+  .css-typing h1:nth-child(3) {
+    width: 27rem;
+    opacity: 0;
+    animation: type3 1.5s steps(25, end);
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+  }
+  .css-typing h1:nth-child(4) {
+    width: 13.5rem;
+    opacity: 0;
+    animation: type4 0.7s steps(19, end), blink .5s step-end infinite alternate;
+    animation-delay: 2.8s;
+    animation-fill-mode: forwards;
+  }
+  
+
+  @keyframes type {
+    0% {
+      width: 0;
+    }
+    99.9% {
       border-right: .15em solid orange;
-      color: #E6DDC4;
-      font-size: 2rem;
-      white-space: nowrap;
-      overflow: hidden;
     }
+    100% {
+      border: none;
+    }
+  }
   
-    .css-typing h1:nth-child(1) {
-      width: 8rem;
-      -webkit-animation: type 0.5s steps(10, end);
-      animation: type 0.5s steps(10, end);
-      -webkit-animation-fill-mode: forwards;
-      animation-fill-mode: forwards;
+  @keyframes type2 {
+    0% {
+      width: 0;
     }
-    
-    .css-typing h1:nth-child(2) {
-      width: 22rem;
-      opacity: 0;
-      -webkit-animation: type2 1s steps(20, end);
-      animation: type2 1s steps(20, end);
-      -webkit-animation-delay: 0.5s;
-      animation-delay: 0.5s;
-      -webkit-animation-fill-mode: forwards;
-      animation-fill-mode: forwards;
+    1% {
+      opacity: 1;
     }
-    
-    .css-typing h1:nth-child(3) {
-      width: 37.5rem;
-      opacity: 0;
-      -webkit-animation: type3 1.5s steps(25, end), blink .5s step-end infinite alternate;
-      animation: type3 1.5s steps(25, end), blink .5s step-end infinite alternate;
-      -webkit-animation-delay: 1.5s;
-      animation-delay: 1.5s;
-      -webkit-animation-fill-mode: forwards;
-      animation-fill-mode: forwards;
+    99.9% {
+      border-right: .15em solid orange;
     }
-    
-    @keyframes type {
-      0% {
-        width: 0;
-      }
-      99.9% {
-        border-right: .15em solid orange;
-      }
-      100% {
-        border: none;
-      }
-    }
-    
-    @-webkit-keyframes type {
-      0% {
-        width: 0;
-      }
-      99.9% {
-        border-right: .15em solid orange;
-      }
-      100% {
-        border: none;
-      }
-    }
-    
-    @keyframes type2 {
-      0% {
-        width: 0;
-      }
-      1% {
-        opacity: 1;
-      }
-      99.9% {
-        border-right: .15em solid orange;
-      }
-      100% {
-        opacity: 1;
-        border: none;
-      }
-    }
-    
-    @-webkit-keyframes type2 {
-      0% {
-        width: 0;
-      }
-      1% {
-        opacity: 1;
-      }
-      99.9% {
-        border-right: .15em solid orange;
-      }
-      100% {
-        opacity: 1;
-        border: none;
-      }
-    }
-    
-    @keyframes type3 {
-      0% {
-        width: 0;
-      }
-      1% {
-        opacity: 1;
-      }
-      100% {
-        opacity: 1;
-      }
-    }
-    
-    @-webkit-keyframes type3 {
-      0% {
-        width: 0;
-      }
-      1% {
-        opacity: 1;
-      }
-      100% {
-        opacity: 1;
-      }
-    }
-    
-    @keyframes blink {
-      50% {
-        border-color: transparent;
-      }
-    }
-    @-webkit-keyframes blink {
-      50% {
-        border-color: tranparent;
-      }
+    100% {
+      opacity: 1;
+      border: none;
     }
   }
 
-  @media (min-width: 1200px) {
-    .css-typing h1 {
-      font-size: 2.75rem;
+  @keyframes type3 {
+    0% {
+      width: 0;
     }
-  
-    .css-typing h1:nth-child(1) {
-      width: 9.5rem;
+    1% {
+      opacity: 1;
     }
-    
-    .css-typing h1:nth-child(2) {
-      width: 30rem;
+    99.9% {
+      border-right: .15em solid orange;
     }
-    
-    .css-typing h1:nth-child(3) {
-      width: 51rem;
+    100% {
+      opacity: 1;
+      border: none;
     }
   }
+
+  @keyframes type4 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .intro {
+    justify-content: normal;
+
+  }
+  .css-typing h1 {
+    border-right: .15em solid orange;
+    color: #E6DDC4;
+    font-size: 2rem;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .css-typing h1:nth-child(1) {
+    width: 8rem;
+    animation: type 0.5s steps(10, end);
+    animation-fill-mode: forwards;
+  }
+  
+  .css-typing h1:nth-child(2) {
+    width: 22rem;
+    opacity: 0;
+    animation: type2 1s steps(20, end);
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+  }
+  
+  .css-typing h1:nth-child(3) {
+    width: 37.5rem;
+    opacity: 0;
+    animation: type3 1.5s steps(25, end), blink .5s step-end infinite alternate;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+  }
+  
+  .mobile {
+    display: none;
+  }
+
+
+  @keyframes type {
+    0% {
+      width: 0;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      border: none;
+    }
+  }
+  
+  @keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  
+  @keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .css-typing h1 {
+    font-size: 2.75rem;
+  }
+
+  .css-typing h1:nth-child(1) {
+    width: 9.5rem;
+  }
+  
+  .css-typing h1:nth-child(2) {
+    width: 30rem;
+  }
+  
+  .css-typing h1:nth-child(3) {
+    width: 51rem;
+  }
+}
 
