@@ -4,8 +4,11 @@
     display: flex;
     justify-content: center;
 }
-
 .intro-icons {
+  margin-top: 15px;
+}
+
+.intro-icon {
     color: #E6DDC4;
     margin-right: 15px;
 }
@@ -28,7 +31,6 @@
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 5px auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
-
   }
   
   .web {
@@ -42,7 +44,7 @@
   }
   
   .css-typing h1:nth-child(2) {
-    width: 23rem;
+    width: 24rem;
     opacity: 0;
     animation: type2 1s steps(20, end);
     animation-delay: 0.5s;
@@ -56,11 +58,12 @@
     animation-delay: 1.5s;
     animation-fill-mode: forwards;
   }
+
   .css-typing h1:nth-child(4) {
     width: 13.5rem;
     opacity: 0;
     animation: type4 0.7s steps(19, end), blink .5s step-end infinite alternate;
-    animation-delay: 2.8s;
+    animation-delay: 3s;
     animation-fill-mode: forwards;
   }
   
@@ -230,6 +233,10 @@
   
   .css-typing h1:nth-child(3) {
     width: 51rem;
+  }
+
+  .intro-icon {
+    font-size: 2.5rem;
   }
 }
 

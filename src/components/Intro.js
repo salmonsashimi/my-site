@@ -8,9 +8,11 @@ export default () => (
             <h1>I'm Samuel Cheung,</h1>
             <h1>an aspiring software <span className='web'>developer.</span></h1>
             <h1 className='mobile'>developer.</h1>
-            <a href='https://www.linkedin.com/in/samuel-cheungyc/' ><i class="fab fa-linkedin fa-2x intro-icons" /></a>
-            <a href='https://github.com/salmonsashimi' ><i class="fab fa-github-square fa-2x intro-icons" /></a>
-            <a href='https://www.google.com' ><i class="fas fa-envelope-square fa-2x intro-icons" /></a>
+            <div className='intro-icons'>
+                <a href='https://www.linkedin.com/in/samuel-cheungyc/' ><i class="fab fa-linkedin fa-2x intro-icon" /></a>
+                <a href='https://github.com/salmonsashimi' ><i class="fab fa-github-square fa-2x intro-icon" /></a>
+                <a href='https://www.google.com' ><i class="fas fa-envelope-square fa-2x intro-icon" /></a>
+            </div>
         </div>
     </div>
 )
