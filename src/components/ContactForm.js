@@ -11,27 +11,31 @@ function ContactForm() {
         <div className='contactForm'>
             <form onSubmit={handleSubmit}>
                 <label htmlFor="email">Your Email</label>
-                <input
-                    id="email"
-                    type="email"
-                    name="email"
-                />
-                <ValidationError
-                    prefix="Email"
-                    field="email"
-                    errors={state.errors}
-                />
-                <label htmlFor="message">Message</label>
-                <textarea
-                    id="message"
-                    name="message"
-                    rows='8'
-                />
-                <ValidationError
-                    prefix="Message"
-                    field="message"
-                    errors={state.errors}
-                />
+                <div className='contactForm-inputs'>
+                    <input
+                        id="email"
+                        type="email"
+                        name="email"
+                    />
+                    <ValidationError
+                        prefix="Email"
+                        field="email"
+                        errors={state.errors}
+                    />
+                </div>
+                <div className='contactForm-inputs'>
+                    <label htmlFor="message">Message</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows='8'
+                    />
+                    <ValidationError
+                        prefix="Message"
+                        field="message"
+                        errors={state.errors}
+                    />
+                </div>
                 <div className='contactForm-button-format'>
                     <button className='contactForm-button' type="submit" disabled={state.submitting}>
                         Submit

@@ -43,3 +43,7 @@ textarea{
     color: #181D31;
     cursor: pointer;
 }
+
+.contactForm-inputs {
+    margin-bottom: 15px;
+}
