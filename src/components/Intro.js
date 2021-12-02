@@ -11,7 +11,7 @@ export default () => (
             <div className='intro-icons'>
                 <a href='https://www.linkedin.com/in/samuel-cheungyc/' ><i class="fab fa-linkedin fa-2x intro-icon" /></a>
                 <a href='https://github.com/salmonsashimi' ><i class="fab fa-github-square fa-2x intro-icon" /></a>
-                <a href='https://www.google.com' ><i class="fas fa-envelope-square fa-2x intro-icon" /></a>
+                <a href='mailto:cheung.ycs@gmail.com' ><i class="fas fa-envelope-square fa-2x intro-icon" /></a>
             </div>
         </div>
     </div>
