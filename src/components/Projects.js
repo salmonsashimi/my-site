@@ -5,7 +5,7 @@ import '../styles/Projects.css';
 
 const Projects = (props) => (
     <div className='projects container container-content'>
-        <h1 className='projects-title'>Here are some projects I have done.</h1>
+        <h1 className='projects-title'>Projects I have done.</h1>
         <div className='projects-items'>
             {props.projects.map((project) => {
                 return <ProjectBox
@@ -18,7 +18,6 @@ const Projects = (props) => (
         </div>
     </div>
 )
-// add in tech used
 
 Projects.defaultProps = {
     projects: [
