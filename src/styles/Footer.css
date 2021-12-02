@@ -7,7 +7,7 @@
 .footer-icons {
     display:flex;
     justify-content: space-between;
-    max-width: 15%;
+    max-width: 200px;
     margin: auto;
 }
 
