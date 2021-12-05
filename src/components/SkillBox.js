@@ -12,7 +12,7 @@ const skillBox = (props) => (
 )
 
 skillBox.defaultProps = {
-    skills: ['HTML', 'CSS', 'JavaScript', 'Python', 'Node', 'React', 'Flask', 'MongoDB', 'Firebase', 'SQLite', 'SCSS', 'Git/Github', 'Jest']
+    skills: ['HTML', 'CSS', 'JavaScript', 'Python', 'Node', 'React', 'Flask', 'MongoDB', 'Firebase', 'SCSS', 'Git/Github', 'Jest']
 }
 
 export default skillBox;
