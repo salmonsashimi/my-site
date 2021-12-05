@@ -23,7 +23,7 @@
 
 @media (max-width:767px) {
   .css-typing h1 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: #E6DDC4;
     overflow: hidden;
     border-right: .15em solid orange;
@@ -37,13 +37,13 @@
   }
 
   .css-typing h1:nth-child(1) {
-    width: 8.5rem;
+    width: 8rem;
     animation: type 0.5s steps(10, end);
     animation-fill-mode: forwards;
   }
   
   .css-typing h1:nth-child(2) {
-    width: 24rem;
+    width: 21rem;
     opacity: 0;
     animation: type2 1s steps(20, end);
     animation-delay: 0.5s;
@@ -51,7 +51,7 @@
   }
   
   .css-typing h1:nth-child(3) {
-    width: 27rem;
+    width: 23rem;
     opacity: 0;
     animation: type3 1.5s steps(25, end);
     animation-delay: 1.5s;
@@ -59,7 +59,7 @@
   }
 
   .css-typing h1:nth-child(4) {
-    width: 13.5rem;
+    width: 11.5rem;
     opacity: 0;
     animation: type4 0.7s steps(19, end), blink .5s step-end infinite alternate;
     animation-delay: 3s;
