@@ -40,7 +40,7 @@ Projects.defaultProps = {
         {
             name: 'Ecommerce site',
             desc: 'An ecommerce site built using React. Project is still ongoing, stay tuned for updates!',
-            repo: 'https://github.com/salmonsashimi/ecommerce-site'
+            repo: 'https://github.com/salmonsashimi/onlinestore'
         }
 
     ]
